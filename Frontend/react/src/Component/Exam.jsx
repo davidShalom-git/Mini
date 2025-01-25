@@ -15,7 +15,7 @@ const Exam = () => {
     const [photoURL, setPhotoURL] = useState('');
     const [showHallTicket, setShowHallTicket] = useState(false);
 
-    const url = 'https://mini-amjp.onrender.com/register';
+    const url = 'https://mini-amjp.onrender.com/api/reg/register';
     const uploadUrl = 'https://mini-amjp.onrender.com/upload';
 
     const handleChange = (e) => {
